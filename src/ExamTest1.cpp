@@ -2,6 +2,8 @@
 // Created by Olcay Taner YILDIZ on 18.12.2023.
 //
 #include "Array/Graph/Graph.h"
+#include "Array/Heap/MaxHeap.h"
+#include "Array/DisjointSet.h"
 
 using namespace array;
 
@@ -9,4 +11,6 @@ int main(){
     Graph g = Graph(10);
     g.addEdge(1, 2);
     g.addEdge(2, 4);
+    MaxHeap heap = MaxHeap(10);
+    DisjointSet disjointSet = DisjointSet(5);
 }
