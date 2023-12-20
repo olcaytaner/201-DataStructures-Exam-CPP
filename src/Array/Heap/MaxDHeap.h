@@ -14,6 +14,7 @@ public:
 protected:
     void percolateDown(int no) override;
     void percolateUp(int no) override;
+    void update(int k, int newValue) override;
 };
 
 

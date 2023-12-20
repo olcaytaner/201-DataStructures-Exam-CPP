@@ -39,3 +39,13 @@ void MinDHeap::percolateUp(int no) {
 MinDHeap::MinDHeap(int N, int d) : DHeap(N, d) {
 
 }
+
+void MinDHeap::update(int k, int newValue) {
+    int oldValue = array[k].getData();
+    array[k].setData(newValue);
+    if (oldValue < newValue){
+        percolateDown(k);
+    } else {
+        percolateUp(k);
+    }
+}

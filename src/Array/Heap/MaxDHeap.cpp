@@ -39,3 +39,13 @@ void MaxDHeap::percolateUp(int no) {
 MaxDHeap::MaxDHeap(int N, int d) : DHeap(N, d) {
 
 }
+
+void MaxDHeap::update(int k, int newValue) {
+    int oldValue = array[k].getData();
+    array[k].setData(newValue);
+    if (oldValue > newValue){
+        percolateDown(k);
+    } else {
+        percolateUp(k);
+    }
+}
