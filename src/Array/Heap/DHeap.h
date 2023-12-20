@@ -13,6 +13,7 @@ protected:
     int d;
 public:
     DHeap(int N, int d);
+    void update(int k, int newValue) override;
 };
 
 

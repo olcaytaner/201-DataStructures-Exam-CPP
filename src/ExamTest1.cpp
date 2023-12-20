@@ -4,6 +4,7 @@
 #include "Array/Graph/Graph.h"
 #include "Array/Heap/MaxHeap.h"
 #include "Array/DisjointSet.h"
+#include "Array/Heap/MaxDHeap.h"
 
 using namespace array;
 
@@ -13,4 +14,5 @@ int main(){
     g.addEdge(2, 4);
     MaxHeap heap = MaxHeap(10);
     DisjointSet disjointSet = DisjointSet(5);
+    MaxDHeap heap2 = MaxDHeap(10, 3);
 }
