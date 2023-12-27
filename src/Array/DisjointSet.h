@@ -18,6 +18,7 @@ public:
     ~DisjointSet();
     int findSetRecursive(int index);
     int findSetIterative(int index);
+    void unionOfSets(int index1, int index2);
 };
 
 
