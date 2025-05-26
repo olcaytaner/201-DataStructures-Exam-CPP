@@ -21,6 +21,10 @@ int Node::getData() {
     return data;
 }
 
+void Node::setData(int data) {
+    this->data = data;
+}
+
 string Node::to_string() {
     return ::to_string(data);
 }

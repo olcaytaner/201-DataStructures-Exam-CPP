@@ -14,7 +14,13 @@ add_library(Exam_CPP src/Array/Graph/Graph.cpp src/Array/Graph/Graph.h src/Gener
         src/List/DoublyLinkedList.cpp src/List/DoublyNode.h src/List/DoublyNode.cpp src/List/Hash.h src/List/Hash.cpp src/List/LinkedList.h
         src/List/LinkedList.cpp src/List/Node.h src/List/Node.cpp src/List/Queue.cpp src/List/Queue.h src/List/Stack.cpp src/List/Stack.h
         src/Tree/Queue.h src/Tree/Queue.cpp src/Tree/Stack.h src/Tree/Stack.cpp src/Tree/Element.h src/Tree/Element.cpp src/List/Graph/Graph.cpp
-        src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h)
+        src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h
+        src/Array/Sort/MergeSort.h
+        src/Array/Sort/MergeSort.cpp
+        src/Array/Sort/SelectionSort.h
+        src/Array/Sort/SelectionSort.cpp
+        src/Array/Sort/QuickSort.h
+        src/Array/Sort/QuickSort.cpp)
 
 add_executable(ExamTest1 src/Array/Graph/Graph.cpp src/Array/Graph/Graph.h src/General/AbstractGraph.cpp
         src/General/AbstractGraph.cpp src/General/Path.cpp src/General/Path.h src/Array/DisjointSet.cpp src/Array/DisjointSet.h
@@ -27,7 +33,11 @@ add_executable(ExamTest1 src/Array/Graph/Graph.cpp src/Array/Graph/Graph.h src/G
         src/List/DoublyLinkedList.cpp src/List/DoublyNode.h src/List/DoublyNode.cpp src/List/Hash.h src/List/Hash.cpp src/List/LinkedList.h
         src/List/LinkedList.cpp src/List/Node.h src/List/Node.cpp src/List/Queue.cpp src/List/Queue.h src/List/Stack.cpp src/List/Stack.h
         src/Tree/Queue.h src/Tree/Queue.cpp src/Tree/Stack.h src/Tree/Stack.cpp src/Tree/Element.h src/Tree/Element.cpp src/ExamTest1.cpp src/List/Graph/Graph.cpp
-        src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h)
+        src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h
+        src/Array/Sort/MergeSort.h
+        src/Array/Sort/MergeSort.cpp
+        src/Array/Sort/SelectionSort.h
+        src/Array/Sort/SelectionSort.cpp)
 
 add_executable(ExamTest2 src/Array/Graph/Graph.cpp src/Array/Graph/Graph.h src/General/AbstractGraph.cpp
         src/General/AbstractGraph.cpp src/General/Path.cpp src/General/Path.h src/Array/DisjointSet.cpp src/Array/DisjointSet.h
@@ -40,4 +50,8 @@ add_executable(ExamTest2 src/Array/Graph/Graph.cpp src/Array/Graph/Graph.h src/G
         src/List/DoublyLinkedList.cpp src/List/DoublyNode.h src/List/DoublyNode.cpp src/List/Hash.h src/List/Hash.cpp src/List/LinkedList.h
         src/List/LinkedList.cpp src/List/Node.h src/List/Node.cpp src/List/Queue.cpp src/List/Queue.h src/List/Stack.cpp src/List/Stack.h
         src/Tree/Queue.h src/Tree/Queue.cpp src/Tree/Stack.h src/Tree/Stack.cpp src/Tree/Element.h src/Tree/Element.cpp src/ExamTest2.cpp src/List/Graph/Graph.cpp
-        src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h)
+        src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h
+        src/Array/Sort/MergeSort.h
+        src/Array/Sort/MergeSort.cpp
+        src/Array/Sort/SelectionSort.h
+        src/Array/Sort/SelectionSort.cpp)

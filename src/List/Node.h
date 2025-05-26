@@ -17,6 +17,7 @@ public:
     void setNext(Node* _next);
     Node* getNext();
     int getData();
+    void setData(int data);
     string to_string();
 };
 
