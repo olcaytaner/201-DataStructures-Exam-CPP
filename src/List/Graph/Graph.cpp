@@ -63,4 +63,59 @@ namespace list {
         }
     }
 
+    int Graph::numberOfCompleteSubGraphs() {
+        return 0;
+    }
+
+    void Graph::shortest(int *lengths, int start) {
+
+    }
+
+    void Graph::shortest(int **path, bool *visited, int start) {
+
+    }
+
+    Graph* Graph::inverseGraph() {
+        return nullptr;
+    }
+
+    Graph* Graph::intersection(const Graph& g2, int v) {
+        return nullptr;
+    }
+
+    int *Graph::twoHops(int index) {
+        return nullptr;
+    }
+
+    bool Graph::isRing() {
+        return false;
+    }
+
+    Graph::Graph(Graph* graphs, int size) : AbstractGraph(graphs[0].vertexCount) {
+
+    }
+
+    bool Graph::breadthFirstSearch(bool *visit, int index1, int index2) {
+        return true;
+    }
+
+    int Graph::bidirectionalEdges() {
+        return 0;
+    }
+
+    bool Graph::isSame(Graph g) {
+        return true;
+    }
+
+    int Graph::shortestIn2Hops(int index1, int index2) {
+        return 0;
+    }
+
+    Graph Graph::merge(const Graph &g2, int v) {
+        return Graph(0);
+    }
+
+    bool Graph::outgoingListSame() {
+        return false;
+    }
 }

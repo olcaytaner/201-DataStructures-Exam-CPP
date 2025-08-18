@@ -66,4 +66,46 @@ Node *LinkedList::getHead() {
     return head;
 }
 
+Node *LinkedList::lastOneWins(int k) {
+    return nullptr;
+}
 
+LinkedList LinkedList::primeDivisors(int N) {
+    return LinkedList();
+}
+
+void LinkedList::addAfterEachNode(int X) {
+
+}
+
+bool LinkedList::containsOnlyTriplicates() {
+    return false;
+}
+
+void LinkedList::remove(const LinkedList& list2) {
+
+}
+
+void LinkedList::deleteEven() {
+
+}
+
+LinkedList::LinkedList(LinkedList *list, int k, int m) {
+
+}
+
+LinkedList LinkedList::windowedPairwiseGCD(int k) {
+    return LinkedList();
+}
+
+void LinkedList::eratosthenes() {
+
+}
+
+LinkedList LinkedList::difference(const LinkedList& list1, const LinkedList& list2) {
+    return LinkedList();
+}
+
+LinkedList LinkedList::calculateCounts() {
+    return LinkedList();
+}

@@ -11,6 +11,10 @@
 class MaxDHeap : public DHeap{
 public:
     MaxDHeap(int N, int d);
+    int howManyPairCanBeSwapped();
+    int third();
+    void descendants(int current, int* list, int& index);
+    int descendants(int no, int level );
 protected:
     void percolateDown(int no) override;
     void percolateUp(int no) override;

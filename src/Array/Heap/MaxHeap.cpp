@@ -44,3 +44,15 @@ void MaxHeap::update(int k, int newValue) {
 
 MaxHeap::MaxHeap(int N) : Heap(N) {
 }
+
+int *MaxHeap::ascendants(int index) {
+    return nullptr;
+}
+
+int MaxHeap::shortestDistanceBetWeenNodes(int index1, int index2) {
+    return 0;
+}
+
+int MaxHeap::third() {
+    return 0;
+}

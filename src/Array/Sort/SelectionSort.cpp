@@ -20,3 +20,11 @@ void SelectionSort::sort(int *A, int size) {
         }
     }
 }
+
+int *SelectionSort::sortNew(int *A, int *B, int size) {
+    return nullptr;
+}
+
+void SelectionSort::sort(LinkedList l) {
+
+}

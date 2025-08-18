@@ -6,6 +6,8 @@
 #define DATASTRUCTURES_CPP_TREENODE_H
 
 
+class LinkedList;
+
 class TreeNode {
 protected:
     TreeNode* left;
@@ -28,6 +30,14 @@ public:
     void postorder();
     void prettyPrint(int level);
     void recursiveInsert(TreeNode* node);
+    void pathList(LinkedList l);
+    bool isMirror(TreeNode* left, TreeNode* right);
+    void accumulate(int* a, int& index);
+    int inBetween(int k1, int k2);
+    void lessThanX(int* a, int& index, int x);
+    int numberOfDuplicates();
+    void accumulateLeaves(int *a, int &index);
+    bool averageOfItsChildren();
 };
 
 

@@ -33,6 +33,8 @@ public:
     void prettyPrint();
     int nodeCountWithStack();
     int nodeCountWithQueue();
+    int *pathList();
+    int leftistOrRightist();
 };
 
 

@@ -21,6 +21,17 @@ public:
     Node* search(int value);
     Node* getPrevious(Node* node);
     string to_string();
+    Node *lastOneWins(int k);
+    LinkedList primeDivisors(int N);
+    void addAfterEachNode(int X);
+    bool containsOnlyTriplicates();
+    void remove(const LinkedList& list2);
+    void deleteEven();
+    LinkedList(LinkedList *list, int k, int m);
+    LinkedList windowedPairwiseGCD(int k);
+    void eratosthenes();
+    LinkedList difference(const LinkedList& list1, const LinkedList& list2);
+    LinkedList calculateCounts();
 };
 
 

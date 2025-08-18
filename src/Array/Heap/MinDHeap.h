@@ -11,6 +11,9 @@
 class MinDHeap : public DHeap{
 public:
     MinDHeap(int N, int d);
+    int numberOfPlacesToReplace(int key);
+    int sumOfMaxChange(int min, int max);
+    void ascendants(int current, int *list, int &index);
 protected:
     void percolateDown(int no) override;
     void percolateUp(int no) override;

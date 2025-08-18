@@ -27,3 +27,15 @@ void BucketSort::sort(int *A, int size) {
     delete[] C;
     delete[] B;
 }
+
+int BucketSort::mode(int* A, int N) {
+    return 0;
+}
+
+void BucketSort::topTwoFrequent(int* A, int N) {
+
+}
+
+LinkedList BucketSort::sortLinkedList(LinkedList list ) {
+
+}

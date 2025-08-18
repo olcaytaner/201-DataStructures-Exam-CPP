@@ -15,6 +15,10 @@ protected:
 public:
     explicit MinHeap(int N);
     void update(int k, int newValue) override;
+    bool isLargestLeftMost();
+    int howManyChildrenCanBeSwapped();
+    int numbersPercolateDownToLeaves(int* list, int size);
+    int kthMaximum(int* array, int k);
 };
 
 

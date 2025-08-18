@@ -53,3 +53,54 @@ void DisjointSet::unionOfSets(int index1, int index2) {
         }
     }
 }
+
+int *DisjointSet::getSetWithIndex(int index) {
+    return nullptr;
+}
+
+void DisjointSet::unionOfSets(int *indexList, int N) {
+
+}
+
+int DisjointSet::numberOfTriplets() {
+    return 0;
+}
+
+int* DisjointSet::grandChildren(int index) {
+    return nullptr;
+}
+
+int* DisjointSet::numberOfDescendants(int index) {
+    return nullptr;
+}
+
+int DisjointSet::numberOfSurvivors(int count, int* whoBites, int* whoWasBitten, int size) {
+    return 0;
+}
+
+void DisjointSet::descendants(int current, int* list, int& index) {
+
+}
+
+void DisjointSet::union2(int index1, int index2, int index3){
+}
+
+int DisjointSet::combine(int N, int* left, int* right ) {
+    return 0;
+}
+
+int * DisjointSet::ascendants(int index) {
+    return nullptr;
+}
+
+bool DisjointSet::isValid() {
+    return true;
+}
+
+void DisjointSet::ascendants(int current, int *list, int &index) {
+
+}
+
+int DisjointSet::value(int index) {
+    return 0;
+}

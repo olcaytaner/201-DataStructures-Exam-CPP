@@ -44,3 +44,15 @@ void MergeSort::mergeSort(int *A, int first, int last) {
 void MergeSort::sort(int *A, int size) {
     mergeSort(A, 0, size - 1);
 }
+
+bool MergeSort::isSuperSet(int *A, int *B, int sizeA, int sizeB) {
+    return true;
+}
+
+bool MergeSort::isIntersection(int *A, int *B, int *C, int sizeA, int sizeB, int sizeC) {
+    return true;
+}
+
+int MergeSort::inAorBorC(const int *A, const int *B, const int *C, int N) {
+    return 0;
+}

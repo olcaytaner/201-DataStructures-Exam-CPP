@@ -7,6 +7,7 @@
 
 
 #include "Sort.h"
+#include "../../List/LinkedList.h"
 
 class BucketSort : public Sort{
 private:
@@ -14,6 +15,9 @@ private:
 public:
     explicit BucketSort(int maxValue);
     void sort(int* A, int size) override;
+    int mode(int* A, int N);
+    void topTwoFrequent(int* A, int N);
+    LinkedList sortLinkedList(LinkedList list );
 };
 
 

@@ -32,3 +32,19 @@ void QuickSort::quickSort(int *A, int first, int last) {
 void QuickSort::sort(int *A, int size) {
     quickSort(A, 0, size - 1);
 }
+
+void QuickSort::threePartitionArray(int* A, int N, int X) {
+
+}
+
+void QuickSort::quickTriple(int* A, int N) {
+
+}
+
+void QuickSort::oddsBeforeEvens(int *A, int size) {
+
+}
+
+int QuickSort::minDifference(int* A, int* B, int N) {
+    return 0;
+}

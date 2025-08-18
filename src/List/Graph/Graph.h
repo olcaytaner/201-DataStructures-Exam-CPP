@@ -19,6 +19,20 @@ namespace list {
         ~Graph();
         void addEdge(int from, int to);
         void addEdge(int from, int to, int weight);
+        int numberOfCompleteSubGraphs();
+        void shortest(int *lengths, int start);
+        void shortest(int **path, bool *visited, int start);
+        Graph* inverseGraph();
+        Graph* intersection(const Graph& g2, int v);
+        int *twoHops(int index);
+        bool isRing();
+        Graph(Graph* graphs, int size);
+        bool breadthFirstSearch(bool *visit, int index1, int index2);
+        int bidirectionalEdges();
+        bool isSame(Graph g);
+        int shortestIn2Hops(int index1, int index2);
+        Graph merge(const Graph &g2, int v);
+        bool outgoingListSame();
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
         void breadthFirstSearch(bool* visited, int startNode) override;

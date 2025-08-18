@@ -3,6 +3,7 @@
 //
 
 #include "TreeNode.h"
+#include "../List/LinkedList.h"
 #include <iostream>
 
 using namespace std;
@@ -132,4 +133,34 @@ void TreeNode::recursiveInsert(TreeNode *node) {
 
 void TreeNode::setData(int data) {
     this->data = data;
+}
+
+void TreeNode::pathList(LinkedList l) {
+}
+
+bool TreeNode::isMirror(TreeNode* left, TreeNode* right) {
+    return true;
+}
+
+void TreeNode::accumulate(int* a, int& index) {
+}
+
+int TreeNode::inBetween(int k1, int k2) {
+    return 0;
+}
+
+void TreeNode::lessThanX(int* a, int& index, int x) {
+
+}
+
+int TreeNode::numberOfDuplicates() {
+    return 0;
+}
+
+void TreeNode::accumulateLeaves(int *a, int &index) {
+
+}
+
+bool TreeNode::averageOfItsChildren() {
+    return false;
 }

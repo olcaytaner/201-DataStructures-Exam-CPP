@@ -65,4 +65,43 @@ namespace array{
         }
     }
 
+    Graph Graph::constructGraphFromNumbers(int N) {
+        return Graph(N);
+    }
+
+    bool Graph::isStarGraph() {
+        return true;
+    }
+
+    bool Graph::isTwoColorable() {
+        return true;
+    }
+
+    bool Graph::isSubGraph(const Graph& g) {
+        return true;
+    }
+
+    int Graph::capitalCity() {
+        return 0;
+    }
+
+    bool Graph::hasCycle(int v, bool* visited) {
+        return true;
+    }
+
+    bool Graph::isCompleteBipartite() {
+        return true;
+    }
+
+    int Graph::lengthOfCircle() {
+        return 0;
+    }
+
+    int ** Graph::numberOfWaysInTwoMoves() {
+        return nullptr;
+    }
+
+    bool Graph::outgoingListSame() {
+        return true;
+    }
 }

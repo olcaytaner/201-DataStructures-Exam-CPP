@@ -49,3 +49,15 @@ void MinDHeap::update(int k, int newValue) {
         percolateUp(k);
     }
 }
+
+int MinDHeap::numberOfPlacesToReplace(int key) {
+    return 0;
+}
+
+int MinDHeap::sumOfMaxChange(int min, int max) {
+    return 0;
+}
+
+void MinDHeap::ascendants(int current, int *list, int &index) {
+
+}

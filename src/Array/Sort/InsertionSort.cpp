@@ -15,3 +15,15 @@ void InsertionSort::sort(int *A, int size) {
         A[i + 1] = t;
     }
 }
+
+void InsertionSort::insertionSort(LinkedList& l) {
+
+}
+
+int InsertionSort::maxSortLength(int* A, int N) {
+
+}
+
+void InsertionSort::sort2(int *A, int *B, int N) {
+
+}

@@ -11,6 +11,8 @@
 class BubbleSort : public Sort{
 public:
     void sort(int* A, int size) override;
+    void sort2(int *A, int* B, int* C, int N);
+    void topThreeFrequent(int *A, int N);
 };
 
 

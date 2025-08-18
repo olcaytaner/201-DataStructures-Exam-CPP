@@ -49,3 +49,19 @@ void MaxDHeap::update(int k, int newValue) {
         percolateUp(k);
     }
 }
+
+int MaxDHeap::howManyPairCanBeSwapped() {
+    return 0;
+}
+
+int MaxDHeap::third() {
+    return 0;
+}
+
+void MaxDHeap::descendants(int current, int* list, int& index) {
+
+}
+
+int MaxDHeap::descendants(int no, int level ) {
+    return 0;
+}

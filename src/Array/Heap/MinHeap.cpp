@@ -44,3 +44,19 @@ void MinHeap::update(int k, int newValue) {
 
 MinHeap::MinHeap(int N) : Heap(N) {
 }
+
+bool MinHeap::isLargestLeftMost() {
+    return true;
+}
+
+int MinHeap::howManyChildrenCanBeSwapped() {
+    return 0;
+}
+
+int MinHeap::numbersPercolateDownToLeaves(int* list, int size) {
+    return 0;
+}
+
+int MinHeap::kthMaximum(int* array, int k) {
+    return 0;
+}

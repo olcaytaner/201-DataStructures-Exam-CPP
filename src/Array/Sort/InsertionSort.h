@@ -11,6 +11,9 @@
 class InsertionSort : public Sort{
 public:
     void sort(int* A, int size) override;
+    void insertionSort(LinkedList& l);
+    int maxSortLength(int* A, int N);
+    void sort2(int *A, int *B, int N);
 };
 
 

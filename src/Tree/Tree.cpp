@@ -232,3 +232,11 @@ TreeNode *Tree::getParent(TreeNode *node) {
     }
     return parent;
 }
+
+int *Tree::pathList() {
+    return nullptr;
+}
+
+int Tree::leftistOrRightist() {
+    return 0;
+}
