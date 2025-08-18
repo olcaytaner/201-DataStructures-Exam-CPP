@@ -164,3 +164,11 @@ void TreeNode::accumulateLeaves(int *a, int &index) {
 bool TreeNode::averageOfItsChildren() {
     return false;
 }
+
+int TreeNode::productOfTree() {
+    return 0;
+}
+
+int TreeNode::leftist() {
+    return 0;
+}

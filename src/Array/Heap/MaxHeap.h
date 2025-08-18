@@ -15,7 +15,9 @@ protected:
 public:
     explicit MaxHeap(int N);
     void update(int k, int newValue) override;
+
     int *ascendants(int index);
+    bool heapOrder(int index);
     int shortestDistanceBetWeenNodes(int index1, int index2);
     int third();
 };

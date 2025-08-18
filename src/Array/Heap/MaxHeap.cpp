@@ -49,6 +49,10 @@ int *MaxHeap::ascendants(int index) {
     return nullptr;
 }
 
+bool MaxHeap::heapOrder(int index) {
+    return true;
+}
+
 int MaxHeap::shortestDistanceBetWeenNodes(int index1, int index2) {
     return 0;
 }

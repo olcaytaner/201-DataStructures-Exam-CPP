@@ -22,7 +22,3 @@ void BubbleSort::sort(int *A, int size) {
 void BubbleSort::sort2(int *A, int* B, int* C, int N) {
 
 }
-
-void BucketSort::topThreeFrequent(int *A, int N) {
-
-}

@@ -14,3 +14,6 @@ void DoublyLinkedList::insertFirst(DoublyNode *newNode) {
     head = newNode;
 }
 
+void DoublyLinkedList::doubleList() {
+
+}

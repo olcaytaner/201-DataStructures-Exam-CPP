@@ -37,5 +37,17 @@ void BucketSort::topTwoFrequent(int* A, int N) {
 }
 
 LinkedList BucketSort::sortLinkedList(LinkedList list ) {
+    return LinkedList();
+}
+
+void BucketSort::convertDecreasingOrder(int* A, int N) {
+
+}
+
+void BucketSort::sortFirstDigit(int* A, int N) {
+
+}
+
+void BucketSort::topThreeFrequent(int *A, int N) {
 
 }

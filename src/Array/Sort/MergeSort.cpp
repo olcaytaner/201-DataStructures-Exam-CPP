@@ -56,3 +56,11 @@ bool MergeSort::isIntersection(int *A, int *B, int *C, int sizeA, int sizeB, int
 int MergeSort::inAorBorC(const int *A, const int *B, const int *C, int N) {
     return 0;
 }
+
+bool MergeSort::isSubset(int* A, int* B, int size) {
+    return true;
+}
+
+int MergeSort::symmetric(int* A, int* B, int size) {
+    return 0;
+}

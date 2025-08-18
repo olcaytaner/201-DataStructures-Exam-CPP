@@ -101,6 +101,10 @@ namespace array{
         return nullptr;
     }
 
+    int Graph::outDegree(int index) {
+        return 0;
+    }
+
     bool Graph::outgoingListSame() {
         return true;
     }

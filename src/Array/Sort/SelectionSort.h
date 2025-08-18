@@ -12,8 +12,10 @@
 class SelectionSort : public Sort{
 public:
     void sort(int* A, int size) override;
-    int *sortNew(int *A, int *B, int size);
+
+    void selectionSort(LinkedList l);
     void sort(LinkedList l);
+    int *sortNew(int *A, int *B, int size);
 };
 
 

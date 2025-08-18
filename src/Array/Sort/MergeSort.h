@@ -14,9 +14,12 @@ private:
     void mergeSort(int* A, int first, int last);
 public:
     void sort(int* A, int size) override;
-    bool isSuperSet(int *A, int *B, int sizeA, int sizeB);
-    bool isIntersection(int *A, int *B, int *C, int sizeA, int sizeB, int sizeC);
+
     int inAorBorC(const int *A, const int *B, const int *C, int N);
+    bool isIntersection(int *A, int *B, int *C, int sizeA, int sizeB, int sizeC);
+    bool isSubset(int* A, int* B, int size);
+    bool isSuperSet(int *A, int *B, int sizeA, int sizeB);
+    int symmetric(int* A, int* B, int size);
 };
 
 

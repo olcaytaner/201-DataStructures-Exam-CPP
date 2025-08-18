@@ -21,6 +21,9 @@ void SelectionSort::sort(int *A, int size) {
     }
 }
 
+void SelectionSort::selectionSort(LinkedList l) {
+}
+
 int *SelectionSort::sortNew(int *A, int *B, int size) {
     return nullptr;
 }

@@ -14,10 +14,11 @@ private:
     void quickSort(int* A, int first, int last);
 public:
     void sort(int* A, int size) override;
-    void threePartitionArray(int* A, int N, int X);
-    void quickTriple(int* A, int N);
-    void oddsBeforeEvens(int *A, int size);
+
     int minDifference(int* A, int* B, int N);
+    void oddsBeforeEvens(int *A, int size);
+    void quickTriple(int* A, int N);
+    void threePartitionArray(int* A, int N, int X);
 };
 
 

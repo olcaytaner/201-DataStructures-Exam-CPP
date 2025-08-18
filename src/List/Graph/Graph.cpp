@@ -118,4 +118,16 @@ namespace list {
     bool Graph::outgoingListSame() {
         return false;
     }
+
+    bool Graph::isBipartite () {
+        return true;
+    }
+
+    bool Graph::isCircular() {
+        return false;
+    }
+
+    bool Graph::isFullyConnected() {
+        return false;
+    }
 }

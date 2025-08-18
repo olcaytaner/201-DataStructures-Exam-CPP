@@ -21,17 +21,20 @@ public:
     Node* search(int value);
     Node* getPrevious(Node* node);
     string to_string();
+
+    LinkedList(LinkedList *list, int k, int m);
+    void addAfterEachNode(int X);
+    LinkedList calculateCounts();
+    bool containsOnlyTriplicates();
+    void deleteBetween(int p, int q);
+    void deleteEven();
+    void deletePrimes();
+    LinkedList difference(const LinkedList& list1, const LinkedList& list2);
+    void eratosthenes();
     Node *lastOneWins(int k);
     LinkedList primeDivisors(int N);
-    void addAfterEachNode(int X);
-    bool containsOnlyTriplicates();
     void remove(const LinkedList& list2);
-    void deleteEven();
-    LinkedList(LinkedList *list, int k, int m);
     LinkedList windowedPairwiseGCD(int k);
-    void eratosthenes();
-    LinkedList difference(const LinkedList& list1, const LinkedList& list2);
-    LinkedList calculateCounts();
 };
 
 

@@ -18,15 +18,17 @@ namespace array{
         ~Graph();
         void addEdge(int from, int to);
         void addEdge(int from, int to, int weight);
-        Graph constructGraphFromNumbers(int N);
-        bool isStarGraph();
-        bool isTwoColorable();
-        bool isSubGraph(const Graph& g);
+
         int capitalCity();
+        Graph constructGraphFromNumbers(int N);
         bool hasCycle(int v, bool* visited);
         bool isCompleteBipartite();
+        bool isStarGraph();
+        bool isSubGraph(const Graph& g);
+        bool isTwoColorable();
         int lengthOfCircle();
         int **numberOfWaysInTwoMoves();
+        int outDegree(int index);
         bool outgoingListSame();
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;

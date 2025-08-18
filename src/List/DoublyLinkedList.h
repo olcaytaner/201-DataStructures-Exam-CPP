@@ -12,6 +12,8 @@
 class DoublyLinkedList : public LinkedList{
 public:
     void insertFirst(DoublyNode* newNode);
+
+    void doubleList();
 };
 
 

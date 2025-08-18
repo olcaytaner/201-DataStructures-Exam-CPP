@@ -109,3 +109,11 @@ LinkedList LinkedList::difference(const LinkedList& list1, const LinkedList& lis
 LinkedList LinkedList::calculateCounts() {
     return LinkedList();
 }
+
+void LinkedList::deleteBetween(int p, int q) {
+
+}
+
+void LinkedList::deletePrimes() {
+
+}

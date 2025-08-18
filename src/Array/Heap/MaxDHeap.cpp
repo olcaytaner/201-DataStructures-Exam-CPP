@@ -58,6 +58,10 @@ int MaxDHeap::third() {
     return 0;
 }
 
+int MaxDHeap::descendants(int no) {
+    return 0;
+}
+
 void MaxDHeap::descendants(int current, int* list, int& index) {
 
 }

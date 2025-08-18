@@ -66,6 +66,10 @@ int DisjointSet::numberOfTriplets() {
     return 0;
 }
 
+LinkedList DisjointSet::grandChildren2(int index) {
+    return LinkedList();
+}
+
 int* DisjointSet::grandChildren(int index) {
     return nullptr;
 }
@@ -99,6 +103,9 @@ bool DisjointSet::isValid() {
 
 void DisjointSet::ascendants(int current, int *list, int &index) {
 
+}
+
+void DisjointSet::unmerge(int index) {
 }
 
 int DisjointSet::value(int index) {

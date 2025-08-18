@@ -15,6 +15,12 @@ add_library(Exam_CPP src/Array/Graph/Graph.cpp src/Array/Graph/Graph.h src/Gener
         src/List/LinkedList.cpp src/List/Node.h src/List/Node.cpp src/List/Queue.cpp src/List/Queue.h src/List/Stack.cpp src/List/Stack.h
         src/Tree/Queue.h src/Tree/Queue.cpp src/Tree/Stack.h src/Tree/Stack.cpp src/Tree/Element.h src/Tree/Element.cpp src/List/Graph/Graph.cpp
         src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h
+        src/Array/Sort/BubbleSort.h
+        src/Array/Sort/BubbleSort.cpp
+        src/Array/Sort/BucketSort.h
+        src/Array/Sort/BucketSort.cpp
+        src/Array/Sort/InsertionSort.h
+        src/Array/Sort/InsertionSort.cpp
         src/Array/Sort/MergeSort.h
         src/Array/Sort/MergeSort.cpp
         src/Array/Sort/SelectionSort.h
@@ -34,6 +40,12 @@ add_executable(ExamTest1 src/Array/Graph/Graph.cpp src/Array/Graph/Graph.h src/G
         src/List/LinkedList.cpp src/List/Node.h src/List/Node.cpp src/List/Queue.cpp src/List/Queue.h src/List/Stack.cpp src/List/Stack.h
         src/Tree/Queue.h src/Tree/Queue.cpp src/Tree/Stack.h src/Tree/Stack.cpp src/Tree/Element.h src/Tree/Element.cpp src/ExamTest1.cpp src/List/Graph/Graph.cpp
         src/List/Graph/Graph.h src/List/Graph/Edge.cpp src/List/Graph/Edge.h src/List/Graph/EdgeList.cpp src/List/Graph/EdgeList.h
+        src/Array/Sort/BubbleSort.h
+        src/Array/Sort/BubbleSort.cpp
+        src/Array/Sort/BucketSort.h
+        src/Array/Sort/BucketSort.cpp
+        src/Array/Sort/InsertionSort.h
+        src/Array/Sort/InsertionSort.cpp
         src/Array/Sort/MergeSort.h
         src/Array/Sort/MergeSort.cpp
         src/Array/Sort/SelectionSort.h

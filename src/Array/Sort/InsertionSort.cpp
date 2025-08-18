@@ -21,7 +21,7 @@ void InsertionSort::insertionSort(LinkedList& l) {
 }
 
 int InsertionSort::maxSortLength(int* A, int N) {
-
+    return 0;
 }
 
 void InsertionSort::sort2(int *A, int *B, int N) {

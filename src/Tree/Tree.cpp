@@ -233,10 +233,14 @@ TreeNode *Tree::getParent(TreeNode *node) {
     return parent;
 }
 
-int *Tree::pathList() {
-    return nullptr;
+void Tree::bottomTwo() {
+
 }
 
 int Tree::leftistOrRightist() {
     return 0;
+}
+
+int *Tree::pathList() {
+    return nullptr;
 }
