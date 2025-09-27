@@ -5,9 +5,8 @@
 #ifndef DATASTRUCTURES_CPP_ELEMENT_H
 #define DATASTRUCTURES_CPP_ELEMENT_H
 
-#include "TreeNode.h"
-
 namespace tree {
+    class TreeNode;
 
     class Element {
     private:
