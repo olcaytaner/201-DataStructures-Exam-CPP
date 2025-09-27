@@ -65,15 +65,7 @@ namespace array{
         }
     }
 
-    Graph Graph::constructGraphFromNumbers(int N) {
-        return Graph(N);
-    }
-
     bool Graph::isStarGraph() {
-        return true;
-    }
-
-    bool Graph::isTwoColorable() {
         return true;
     }
 
@@ -95,6 +87,9 @@ namespace array{
 
     int Graph::lengthOfCircle() {
         return 0;
+    }
+
+    int Graph::numberOfCompleteSubGraphs() {
     }
 
     int ** Graph::numberOfWaysInTwoMoves() {

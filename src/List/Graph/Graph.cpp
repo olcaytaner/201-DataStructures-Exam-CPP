@@ -63,10 +63,6 @@ namespace list {
         }
     }
 
-    int Graph::numberOfCompleteSubGraphs() {
-        return 0;
-    }
-
     void Graph::shortest(int *lengths, int start) {
 
     }
@@ -87,16 +83,15 @@ namespace list {
         return nullptr;
     }
 
-    bool Graph::isRing() {
-        return false;
-    }
-
     Graph::Graph(Graph* graphs, int size) : AbstractGraph(graphs[0].vertexCount) {
 
     }
 
     bool Graph::breadthFirstSearch(bool *visit, int index1, int index2) {
         return true;
+    }
+
+    Graph Graph::constructGraphFromNumbers(int N) {
     }
 
     int Graph::bidirectionalEdges() {
