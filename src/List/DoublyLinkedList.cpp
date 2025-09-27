@@ -14,6 +14,26 @@ void DoublyLinkedList::insertFirst(DoublyNode *newNode) {
     head = newNode;
 }
 
+DoublyLinkedList * DoublyLinkedList::divideList(int k) {
+    return nullptr;
+}
+
 void DoublyLinkedList::doubleList() {
 
+}
+
+DoublyLinkedList DoublyLinkedList::getEvenOnes() {
+}
+
+bool DoublyLinkedList::isPalindrom() {
+    return false;
+}
+
+void DoublyLinkedList::removeKthBeforeLast(int K) {
+}
+
+void DoublyLinkedList::reverse() {
+}
+
+DoublyLinkedList DoublyLinkedList::sortElements() {
 }

@@ -74,6 +74,9 @@ LinkedList LinkedList::primeDivisors(int N) {
     return LinkedList();
 }
 
+void LinkedList::printFibonacciWay(int N) {
+}
+
 void LinkedList::addAfterEachNode(int X) {
 
 }
@@ -90,6 +93,9 @@ void LinkedList::deleteEven() {
 
 }
 
+void LinkedList::deleteKth(int K) {
+}
+
 LinkedList::LinkedList(LinkedList *list, int k, int m) {
 
 }
@@ -98,8 +104,24 @@ LinkedList LinkedList::windowedPairwiseGCD(int k) {
     return LinkedList();
 }
 
+LinkedList LinkedList::zibonacci(int A, int B) {
+}
+
 void LinkedList::eratosthenes() {
 
+}
+
+void LinkedList::evenOddSorted() {
+}
+
+LinkedList LinkedList::getIndexed(LinkedList list) {
+}
+
+LinkedList LinkedList::intersec(LinkedList list1, LinkedList list2) {
+}
+
+bool LinkedList::isIncreasingOfSizeK(int k) {
+    return false;
 }
 
 LinkedList LinkedList::difference(const LinkedList& list1, const LinkedList& list2) {
@@ -108,6 +130,10 @@ LinkedList LinkedList::difference(const LinkedList& list1, const LinkedList& lis
 
 LinkedList LinkedList::calculateCounts() {
     return LinkedList();
+}
+
+bool LinkedList::containsOnlyDuplicates() {
+    return false;
 }
 
 void LinkedList::deleteBetween(int p, int q) {
